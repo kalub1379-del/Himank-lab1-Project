@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet"href="style.css">
+    
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="#" class="logo">My Portfolio</a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <div class="profile-wrapper">
+            <div class="profile-image">
+                <img src="himank photo.jpg" alt="himank narula  Profile Image">
+            </div>
+        </div>
+        <p>
+            Hello, my name is Himank narula. I am an 17-year-old aspiring student who is eager to learn many new languages and work on wonderful projects. I am passionate about web development and building creative projects.
+        </p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>My Skills</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Yet to start learning</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-card-image p1">Project 1 Placeholder</div>
+                <div class="project-card-content">
+                    <h4>Portfolio Website</h4>
+                    <p>A personal one-page website to showcase your bio, skills, and contact details, demonstrating proficiency in HTML & CSS.</p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-card-image p2">Project 2 Placeholder</div>
+                <div class="project-card-content">
+                    <h4>Simple Landing Page</h4>
+                    <p>A responsive landing page design focusing on modern layouts using Flexbox and CSS media queries.</p>
+                </div>
+            </div>
+            
+            </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+            </div>
+            <div class="submit-wrapper">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </section>
+    
+    <footer class="footer">
+        &copy; 2025 My Portfolio. All rights reserved.
+    </footer>
+</body>
+</html>
